@@ -24,7 +24,7 @@ Today, cryptography is not limited to ancient ciphers like the Caesar cipher. It
 
 Cryptography is a cornerstone of the digital age, enabling trust and security in the interconnected world
 
-Whether you're interested in the historical significance of cryptography or the practical applications of encryption in the modern world, this GitHub page will guide you through a practical example: a Caesar Cipher encryption and decryption tool built in Python using the tkinter library.
+Whether you're interested in the historical significance of cryptography or the practical applications of encryption in the modern world, this GitHub page will guide you through a practical example: a Caesar Cipher encryption and decryption tool built in Python using the tkinter library as an additinal practice for making a GUI version.
 
 <h2>Code and explanations</h2>
 
