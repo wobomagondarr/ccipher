@@ -61,7 +61,12 @@ Explanation:
         - It then adds the **`shift`** value to this position, which determines how many positions each character should be shifted in the key.
         - The result is taken modulo 26 to ensure it wraps around within the range [0, 25]. This accounts for cases where the shift value is larger than 26, so it loops back to the beginning of the alphabet.
         - Finally, it adds **`ord('a')`** back to the result to convert it back to a lowercase letter. For example, if the result is 3, it is converted to 'd'.
-- It takes the input text entered by the user in the **`input_text`** Text widget.
+- **`plain_text = input_text.get("1.0", "end-1c")`**: takes the input text entered by the user in the **`input_text`** Text widget.
+   
+    - This line of code is used to retrieve the input text that the user entered in the **`input_text`** widget.
+    - **`"1.0"`** specifies the starting position of the text to be retrieved as "row 1, column 0" in the widget, which is the beginning.
+    - **`"end-1c"`** specifies the ending position as "end-1 character," which effectively removes the trailing newline character ('\n') if it exists.
+- The retrieved text is stored in the variable **`cipher_text`**.
 - It processes the input text character by character, encrypting only the alphabetic characters using the key. Non-alphabetic and Uppercase characters remain unchanged.
 - The result is displayed in the **`result_text`** Text widget, and its text color is set to dark green.
 
@@ -87,7 +92,11 @@ Explanation:
         - It then subtracts the **`shift`** value, which determines how many positions each character should be shifted in the key.
         - The result is taken modulo 26 to ensure it wraps around within the range [0, 25]. This accounts for cases where the shift value is larger than 26, so it loops back to the beginning of the alphabet.
         - Finally, it adds **`ord('a')`** back to the result to convert it back to a lowercase letter. For example, if the result is 3, it is converted to 'd'.
-- It takes the input text entered by the user.
+- **`cipher_text = input_text.get("1.0", "end-1c")`**: takes the input text entered by the user.
+   
+   - This line of code is used to retrieve the input text that the user entered in the **`input_text`** widget.
+    - **`"1.0"`** specifies the starting position of the text to be retrieved as "row 1, column 0" in the widget, which is the beginning.
+    - **`"end-1c"`** specifies the ending position as "end-1 character," which effectively removes the trailing newline character ('\n') if it exists.
 - It processes the input text character by character, decrypting only the alphabetic characters using the key. Non-alphabetic characters remain unchanged.
 - The result is displayed in the **`result_text`** Text widget, with text color set to dark green.
 
