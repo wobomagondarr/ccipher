@@ -36,9 +36,8 @@ Explanation:
 
 In this section, we import the necessary Python libraries:
 
-tkinter: This library is used for creating the graphical user interface (GUI).
-
-string: This library provides string constants, including the lowercase English alphabet.
+- **`import tkinter as tk`**: This line imports the tkinter library and gives it the alias 'tk'. It's used for creating the GUI.
+- **`import string`**: This line imports the string module, which provides a string containing all lowercase ASCII letters. It is used to define the character set for the Caesar cipher.
 
 Section 2: Encryption Function
 
@@ -46,13 +45,14 @@ Section 2: Encryption Function
 
 Explanation:
 
-This section defines the encrypt function, which performs Caesar Cipher encryption.
-
-It retrieves the shift value, input text, and a set of characters.
-
-It generates a key for encryption based on the shift value.
-
-The function then encrypts the input text using the key and displays the result in the GUI.
+- This function is defined to handle the encryption process.
+- It starts by getting the value of the shift (a key for Caesar cipher) from the user through the **`shift_entry`** widget.
+- It calculates the actual shift value by taking the modulo 26 to ensure it's within the range [0, 25] as there are 26 letter in the alphabet.
+- It defines the character set **`chars`** as all lowercase letters in the English alphabet.
+- It generates a substitution key for encryption based on the given shift value.
+- It takes the input text entered by the user in the **`input_text`** Text widget.
+- It processes the input text character by character, encrypting only the alphabetic characters using the key. Non-alphabetic and Uppercase characters remain unchanged.
+- The result is displayed in the **`result_text`** Text widget, and its text color is set to dark green.
 
 Section 3: Decryption Function
 
@@ -60,10 +60,14 @@ Section 3: Decryption Function
 
 Explanation:
 
-This section defines the decrypt function, which performs Caesar Cipher decryption.
-It retrieves the shift value, input text, and a set of characters.
-It generates a key for decryption based on the shift value.
-The function then decrypts the input text using the key and displays the result in the GUI.
+- Similar to the **`encrypt()`** function, this function handles the decryption process.
+- It starts by getting the shift value from the user.
+- It calculates the actual shift value (taking the modulo 26) for decryption.
+- It defines the character set **`chars`** just like in the encryption function.
+- It generates a substitution key for decryption based on the given shift value.
+- It takes the input text entered by the user.
+- It processes the input text character by character, decrypting only the alphabetic characters using the key. Non-alphabetic characters remain unchanged.
+- The result is displayed in the **`result_text`** Text widget, with text color set to dark green.
 
 Section 4: GUI Initialization
 
