@@ -42,7 +42,7 @@ string: This library provides string constants, including the lowercase English 
 
 Section 2: Encryption Function
 
-<img src="https://i.imgur.com/2Sxpnsa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2Sxpnsa.png" height="80%" width="80%"/>
 
 Explanation:
 
@@ -56,7 +56,7 @@ The function then encrypts the input text using the key and displays the result 
 
 Section 3: Decryption Function
 
-<img src="https://i.imgur.com/0ootCW0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0ootCW0.png" height="80%" width="80%"/>
 
 Explanation:
 
@@ -67,7 +67,7 @@ The function then decrypts the input text using the key and displays the result 
 
 Section 4: GUI Initialization
 
-<img src="https://i.imgur.com/I1wG6ZC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/I1wG6ZC.png" height="80%" width="80%"/>
 
 Explanation:
 
@@ -75,7 +75,7 @@ This section initializes the GUI by creating a main window with a title and spec
 
 Section 5: Introduction and Labels
 
-<img src="https://i.imgur.com/FlWMY15.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FlWMY15.png" height="80%" width="80%"/>
 
 Explanation:
 
@@ -83,7 +83,7 @@ These lines create and display labels in the GUI, providing introductory informa
 
 Section 6: Shift Value Input
 
-<img src="https://i.imgur.com/HaiK5s9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HaiK5s9.png" height="80%" width="80%"/>
 
 Explanation:
 
@@ -91,7 +91,7 @@ This section creates labels and an entry widget for users to input the shift val
 
 Section 7: Message Input
 
-<img src="https://i.imgur.com/zyqfCZ6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zyqfCZ6.png" height="80%" width="80%"/>
 
 Explanation:
 
@@ -99,7 +99,7 @@ These lines create labels and a Text widget for users to enter the message they 
 
 Section 8: Encryption and Decryption Buttons
 
-<img src="https://i.imgur.com/FkndSNC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FkndSNC.png" height="80%" width="80%"/>
 
 Explanation:
 
@@ -107,7 +107,7 @@ This section adds buttons for encryption and decryption. The command parameter a
 
 Section 9: Result Display
 
-<img src="https://i.imgur.com/4rUxAcu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4rUxAcu.png" height="80%" width="80%"/>
 
 Explanation:
 
@@ -115,7 +115,7 @@ These lines create a Text widget to display the result of encryption or decrypti
 
 Section 10: Author Information
 
-<img src="https://i.imgur.com/CWXDFmT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CWXDFmT.png" height="80%" width="80%"/>
 
 Explanation:
 
@@ -123,7 +123,7 @@ This section provides information about the author of the Caesar Cipher tool.
 
 Section 11: Main Loop
 
-<img src="https://i.imgur.com/pC3zvcx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pC3zvcx.png" height="80%" width="80%"/>
 
 Explanation:
 
