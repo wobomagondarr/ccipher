@@ -69,6 +69,8 @@ Explanation:
 - It processes the input text character by character, decrypting only the alphabetic characters using the key. Non-alphabetic characters remain unchanged.
 - The result is displayed in the **`result_text`** Text widget, with text color set to dark green.
 
+<h2>GUI Code and explanations</h2>
+
 Section 4: GUI Initialization
 
 <img src="https://i.imgur.com/I1wG6ZC.png" height="80%" width="80%"/>
@@ -76,6 +78,8 @@ Section 4: GUI Initialization
 Explanation:
 
 A tkinter window is created, titled "Caesar Cipher Encryption/Decryption," with a size of 500x700 pixels and a background color of dark grey.
+
+<img src="https://i.imgur.com/q5NN4b0.png" height="80%" width="80%"/>
 
 Section 5: Introduction and Labels
 
