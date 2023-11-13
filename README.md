@@ -75,7 +75,7 @@ Section 4: GUI Initialization
 
 Explanation:
 
-This section initializes the GUI by creating a main window with a title and specific dimensions. It also sets the background color.
+A tkinter window is created, titled "Caesar Cipher Encryption/Decryption," with a size of 500x700 pixels and a background color of dark grey.
 
 Section 5: Introduction and Labels
 
@@ -91,7 +91,7 @@ Section 6: Shift Value Input
 
 Explanation:
 
-This section creates labels and an entry widget for users to input the shift value for encryption or decryption.
+This section creates labels and an entry widget **`(shift_entry)`** for users to input the shift value for encryption or decryption.
 
 Section 7: Message Input
 
@@ -99,7 +99,7 @@ Section 7: Message Input
 
 Explanation:
 
-These lines create labels and a Text widget for users to enter the message they want to encrypt or decrypt.
+These lines create labels and a Text widget **`(input_text)`** for users to enter the message they want to encrypt or decrypt.
 
 Section 8: Encryption and Decryption Buttons
 
@@ -107,7 +107,7 @@ Section 8: Encryption and Decryption Buttons
 
 Explanation:
 
-This section adds buttons for encryption and decryption. The command parameter associates these buttons with the encrypt and decrypt functions defined earlier.
+Buttons for both encryption and decryption are created **`(encrypt_button and decrypt_button)`**.
 
 Section 9: Result Display
 
@@ -123,7 +123,7 @@ Section 10: Author Information
 
 Explanation:
 
-This section provides information about the author of the Caesar Cipher tool.
+A label indicates that the program was created by "Wobomagondarr."
 
 Section 11: Main Loop
 
@@ -131,7 +131,8 @@ Section 11: Main Loop
 
 Explanation:
 
-This line initiates the main event loop, which keeps the GUI application running and responsive to user interactions.
+**`window.mainloop()`** starts the main event loop, which handles user interactions and keeps the GUI application running and responsive to user interactions.
+
 The code is organized into these logical sections to create a user-friendly Caesar Cipher encryption and decryption tool with a graphical user interface.
 
 
