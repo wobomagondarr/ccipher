@@ -30,7 +30,7 @@ Whether you're interested in the historical significance of cryptography or the 
 
 Section 1: Importing Libraries
 
-<img src="https://i.imgur.com/8aNTnlE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8aNTnlE.png" height="80%" width="80%"/>
 
 Explanation:
 
