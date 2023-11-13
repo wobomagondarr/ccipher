@@ -50,6 +50,17 @@ Explanation:
 - It calculates the actual shift value by taking the modulo 26 to ensure it's within the range [0, 25] as there are 26 letter in the alphabet.
 - It defines the character set **`chars`** as all lowercase letters in the English alphabet.
 - It generates a substitution key for encryption based on the given shift value.
+  
+  **`key = [chr((ord(c) - ord('a') + shift) % 26 + ord('a')) for c in chars]`**:
+    - This line of code is responsible for generating the key used in Caesar cipher encryption.
+    - **`chars`** is a string containing all lowercase English alphabet letters from 'a' to 'z', defined using **`string.ascii_lowercase`**.
+    - The code iterates through each character **`c`** in the **`chars`** string.
+    - For each character **`c`**, it calculates the corresponding character in the Caesar cipher key:
+        - **`ord(c)`** returns the ASCII code of the character **`c`**. For example, **`ord('a')`** returns 65, **`ord('b')`** returns 66, and so on.
+        - It subtracts **`ord('a')`** from the ASCII code of **`c`**. This effectively converts 'a' to 0, 'b' to 1, and so on.
+        - It then adds the **`shift`** value to this position, which determines how many positions each character should be shifted in the key.
+        - The result is taken modulo 26 to ensure it wraps around within the range [0, 25]. This accounts for cases where the shift value is larger than 26, so it loops back to the beginning of the alphabet.
+        - Finally, it adds **`ord('a')`** back to the result to convert it back to a lowercase letter. For example, if the result is 3, it is converted to 'd'.
 - It takes the input text entered by the user in the **`input_text`** Text widget.
 - It processes the input text character by character, encrypting only the alphabetic characters using the key. Non-alphabetic and Uppercase characters remain unchanged.
 - The result is displayed in the **`result_text`** Text widget, and its text color is set to dark green.
@@ -65,6 +76,17 @@ Explanation:
 - It calculates the actual shift value (taking the modulo 26) for decryption.
 - It defines the character set **`chars`** just like in the encryption function.
 - It generates a substitution key for decryption based on the given shift value.
+
+  **`key = [chr((ord(c) - ord('a') - shift) % 26 + ord('a')) for c in chars]`**:
+    - This line of code is constructing the key that is used for Caesar cipher decryption.
+    - **`chars`** is a string containing all lowercase English alphabet letters from 'a' to 'z', defined using **`string.ascii_lowercase`**.
+    - The code loops through each character **`c`** in the **`chars`** string.
+    - For each character **`c`**, it calculates the corresponding character in the Caesar cipher key:
+        - **`ord(c)`** returns the ASCII code of the character **`c`**. For example, **`ord('a')`** returns 97, **`ord('b')`** returns 98, and so on.
+        - It subtracts **`ord('a')`** from the ASCII code of **`c`**. This effectively converts 'a' to 0, 'b' to 1, and so on.
+        - It then subtracts the **`shift`** value, which determines how many positions each character should be shifted in the key.
+        - The result is taken modulo 26 to ensure it wraps around within the range [0, 25]. This accounts for cases where the shift value is larger than 26, so it loops back to the beginning of the alphabet.
+        - Finally, it adds **`ord('a')`** back to the result to convert it back to a lowercase letter. For example, if the result is 3, it is converted to 'd'.
 - It takes the input text entered by the user.
 - It processes the input text character by character, decrypting only the alphabetic characters using the key. Non-alphabetic characters remain unchanged.
 - The result is displayed in the **`result_text`** Text widget, with text color set to dark green.
