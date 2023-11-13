@@ -139,7 +139,7 @@ The code is organized into these logical sections to create a user-friendly Caes
 
 We initiate the .py file from CMD and it opens the GUI window:
 
-<img src="https://i.imgur.com/g0UXFJO.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/SUBb8V0.png" height="80%" width="80%"/>
 
 Once the window open we will do a test with a random large shift key such as 2562:
 
