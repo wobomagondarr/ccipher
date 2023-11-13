@@ -135,8 +135,19 @@ Explanation:
 
 The code is organized into these logical sections to create a user-friendly Caesar Cipher encryption and decryption tool with a graphical user interface.
 
+<h2>Test Run</h2>
 
+We initiate the .py file from CMD and it opens the GUI window:
 
+<img src="https://i.imgur.com/g0UXFJO.png" height="80%" width="80%"/>
+
+Once the window open we will do a test with a random large shift key such as 2562:
+
+<img src="https://i.imgur.com/GYonXu8.png" height="80%" width="80%"/>
+
+Then we decrypt by adding a negative to the same key and pasting in the previously encrypted message:
+
+<img src="https://i.imgur.com/12FOTq2.png" height="80%" width="80%"/>
 
 
 
